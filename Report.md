@@ -83,7 +83,7 @@ Loss curves show steady convergence.
 | GPU      | NVIDIA A100 80GB PCIe |
 | RAM      | 80 GB |
 | Platform | Ubuntu 22.04 LTS |
-| Tools    | PyTorch, WandB |
+| Tools    | PyTorch, WandB | 
 
 
 ## Reproduction Instructions on Linux
