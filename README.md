@@ -1,6 +1,6 @@
-# Image-Segmentation-Assignmnet
+# Image Segmentation 
 
-## TASK 1: Dataset preparation using python
+## Dataset preparation using python
 
 [Download](http://cocodataset.org/#download "Download COCO") the following files on to your PC. 
 
