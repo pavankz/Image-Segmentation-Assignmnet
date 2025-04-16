@@ -1,4 +1,4 @@
-# 1. Dataset preparation unsing Python
+# 1. Dataset preparation using Python
 
 ## Overview
 This task implements a dataset preparation pipeline for generating segmentation masks from the COCO dataset.
@@ -48,7 +48,7 @@ Visualization of architecture with sample input : batch_size=1, 3 color channels
 | Epochs          | 10                  |
 | Batch Size      | (depends on loader) |
 | Device          | CUDA 12.4   |
-| Logging         | [Weights & Biases Dashboard](https://wandb.ai/your-username/unet-segmentation) |
+| Logging         | [Weights & Biases Dashboard](https://wandb.ai/pavankumaar-amgoth-indian-institute-of-science/unet-segmentation/runs/6fq0lu4l?nw=nwuserpavankumaaramgoth) |
 
 ---
 ##  Modeling Decisions
@@ -71,7 +71,7 @@ Visualization of architecture with sample input : batch_size=1, 3 color channels
 
 Training Metrics
 
-![loss_curves](https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/loss_curves.png)
+![loss_curves](https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/wandb_loss_curve.png)
 
 Loss curves show steady convergence.
 
@@ -83,7 +83,7 @@ Loss curves show steady convergence.
 | GPU      | NVIDIA A100 80GB PCIe |
 | RAM      | 80 GB |
 | Platform | Ubuntu 22.04 LTS |
-| Tools    | PyTorch, WandB, TensorBoard |
+| Tools    | PyTorch, WandB |
 
 
 ## Reproduction Instructions on Linux
@@ -99,11 +99,10 @@ Loss curves show steady convergence.
     - NumPy, Pandas
     - Matplotlib
     - WandB
-    - TensorBoard
     - tqtm
 
 2. **Image Segemetation and Training**:
-    - Open the `Assignment_VJT_PavanKumar.ipynb` notebook.
+    - Open the `image_segmentation_model_training.ipynb` notebook.
     - Ensure the dataset path is correctly set up.
     - Run the notebook .
 
