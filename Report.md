@@ -47,7 +47,7 @@ Visualization of architecture with sample input : batch_size=1, 3 color channels
 | Loss Function   | Binary Cross Entropy (BCE) |
 | Epochs          | 10                  |
 | Batch Size      | (depends on loader) |
-| Device          | CUDA if available   |
+| Device          | CUDA 12.4   |
 | Logging         | [Weights & Biases Dashboard](https://wandb.ai/your-username/unet-segmentation) |
 
 ---
@@ -80,9 +80,8 @@ Loss curves show steady convergence.
 
 | Resource | Specs |
 |----------|-------|
-| GPU      | NVIDIA RTX 3080 |
-| CPU      | AMD Ryzen 9 5950X |
-| RAM      | 32 GB |
+| GPU      | NVIDIA A100 80GB PCIe |
+| RAM      | 80 GB |
 | Platform | Ubuntu 22.04 LTS |
 | Tools    | PyTorch, WandB, TensorBoard |
 
