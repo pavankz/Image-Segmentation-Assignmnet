@@ -36,7 +36,8 @@ The U-Net architecture used includes:
 - **Output**: 1-channel output with Sigmoid activation for binary mask prediction
 
 ---
-
+Visualization of architecture with sample input : batch_size=1, 3 color channels, image size 224x224
+![U-Net Architecture](https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/unet_architecture.png)
 ##  Training Configuration
 
 | Component       | Details              |
@@ -70,9 +71,9 @@ The U-Net architecture used includes:
 
 Training Metrics
 
-![loss_curves](loss_curves.png)
+![loss_curves](https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/loss_curves.png)
 
-Loss curves show steady convergence. Additional metrics like IoU and Dice will be introduced in future versions.
+Loss curves show steady convergence.
 
 ---
 ##  System Specs
