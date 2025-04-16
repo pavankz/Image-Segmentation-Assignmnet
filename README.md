@@ -24,7 +24,7 @@ Project Folder
 |   │        │   000000000139.jpg
 |   │        │   000000000285.jpg
 |   │        │   ...
-|   └───Assignmnet_VJT_PavanKumar.ipynb
+|   └───Image_segmentation_model_training.ipynb
 ```
 
 This task involves datat processing and training image segmentation model using PyTorch
