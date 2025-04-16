@@ -33,3 +33,4 @@ This task involves datat processing and training image segmentation model using 
 2) Generate masks from the given COCO annotations  
 3) Add image augmentations  
 4) Create a data generator object to ease training models
+5) Train an image segmentation model
