@@ -37,7 +37,7 @@ The U-Net architecture used includes:
 
 ---
 Visualization of architecture with sample input : batch_size=1, 3 color channels, image size 224x224
-<img src="https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/unet_architecture.png?raw=true" style="transform: rotate(90deg); width:400px;" />
+<img src="https://github.com/pavankz/Image-Segmentation-Assignmnet/blob/main/COCO/unet_architecture.png" style="transform: rotate(90deg); width:400px;" />
 ##  Training Configuration
 
 | Component       | Details              |
